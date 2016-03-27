@@ -2,7 +2,7 @@
 
     <div class="thumbnail">
     	<%= link_to book_path(book)  do %>	
-      		<%= image_tag "100startup.jpg", class: 'img-responsive' %>
+      		<%= image_tag book.image.url, class: 'img-responsive' %>
     	<% end %>
     </div>
     
