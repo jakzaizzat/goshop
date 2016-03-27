@@ -10,6 +10,7 @@ class Ability
         book.try(:user) == user
       end
 
+
     #   if user.admin?
     #     can :manage, :all
     #   else
